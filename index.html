@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Love 💌</title>
+  <meta name="description" content="A little piece of my heart, turned into a website." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- =========================================================
+       ✏️ EDIT ME: Search this file for [ and ] brackets —
+       every [PLACEHOLDER] is something you can personalise.
+       ========================================================= -->
+
+  <!-- 1. OPENING SCREEN -->
+  <div id="intro" class="intro" role="dialog" aria-label="Birthday surprise">
+    <div class="hearts-layer" aria-hidden="true"></div>
+    <div class="intro-content">
+      <p class="intro-kicker">for my favourite person</p>
+      <h1 class="intro-title">Hey, <span class="name">[His Nickname]</span>…</h1>
+      <p class="intro-sub">I made you something. It holds a little piece of my heart.</p>
+      <button id="openBtn" class="btn btn-primary">Open Your Birthday Surprise 💝</button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">♡ <span class="name">[His Name]</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#wishes">Wishes</a>
+      <a href="#envelopes">Open When</a>
+      <a href="#reasons">Reasons</a>
+      <a href="#gallery">Memories</a>
+      <a href="#letter">Letter</a>
+      <a href="#celebrate">Celebrate</a>
+      <a href="#hug">Hug</a>
+    </nav>
+  </header>
+
+  <button id="musicBtn" class="music-btn" aria-pressed="false" aria-label="Play background music">♪ <span>Play music</span></button>
+  <!-- ✏️ Put your song in this folder and name it "music.mp3" -->
+  <audio id="bgMusic" src="music.mp3" loop preload="none"></audio>
+
+  <main>
+    <!-- 2. HERO -->
+    <section id="home" class="hero">
+      <div class="hearts-layer soft" aria-hidden="true"></div>
+      <p class="hero-date">2083/07/11</p>
+      <h1 class="hero-title">Happy Birthday,<br /><em class="name">[His Name]</em></h1>
+      <p class="hero-sub">To my babee, my maya, my favourite cylinder — you turn ordinary days into the softest chapters of my life.<br />Today the whole world gets to celebrate you, Sagaruu — but I get to love you.</p>
+      <a href="#wishes" class="btn btn-ghost">Begin our little journey ↓</a>
+    </section>
+
+    <!-- 3. WISHES -->
+    <section id="wishes" class="section">
+      <h2 class="section-title">Birthday Wishes, Just for You</h2>
+      <p class="section-sub">Forty little wishes — one for every corner of your heart.</p>
+      <div class="wish-grid" id="wishGrid"></div>
+    </section>
+
+    <!-- 4. ENVELOPES -->
+    <section id="envelopes" class="section tinted">
+      <h2 class="section-title">Open When…</h2>
+      <p class="section-sub">Tap an envelope whenever you need a little reminder of how loved you are.</p>
+      <div class="env-grid" id="envGrid"></div>
+    </section>
+
+    <!-- 5. REASONS -->
+    <section id="reasons" class="section">
+      <h2 class="section-title">Reasons I Love You</h2>
+      <p class="section-sub">Tap each heart to reveal one. (There are far more than these.)</p>
+      <div class="reason-grid" id="reasonGrid"></div>
+      <button class="btn btn-ghost" id="revealAll">Reveal them all</button>
+    </section>
+
+    <!-- 6. GALLERY -->
+    <section id="gallery" class="section tinted">
+      <h2 class="section-title">Our Little Scrapbook</h2>
+      <div class="scrapbook" id="scrapbook"></div>
+    </section>
+
+    <!-- 7. LETTER -->
+    <section id="letter" class="section">
+      <h2 class="section-title">A Letter From My Heart</h2>
+      <article class="letter-paper" id="letterPaper" contenteditable="false">
+        <p class="letter-greet">My dearest <span class="name">babee</span>, ❤️</p>
+        <p>Happy birthday, my love. ❤️ I wish you could see yourself through my eyes, even just for a moment, because then you'd understand why you mean so much to me and why my heart feels so full whenever it comes to you.</p>
+        <p>I love the way you call me just to hear my voice, the way you make me smile without even trying, and how the smallest things you do can make my entire day better. I love talking to you about absolutely nothing and still never wanting the conversation to end. Somehow, even the most ordinary moments become special when they involve you.</p>
+        <p>You have become such a beautiful part of my life, someone I look forward to talking to, someone I miss even after we've just said goodbye, and someone whose happiness genuinely matters to me. If I could wish for one thing, it would be for you to see how loved you truly are, especially on the days when you forget your own worth.</p>
+        <p>Babee, I hope you know that you don't always have to be strong with me. You don't have to have everything figured out or pretend that everything is okay when it isn't. I want to be there for you on the days when you're happy and everything feels right, but I also want to be there on the days when you're tired, stressed, quiet, or just not feeling like yourself. You can tell me what's on your mind, share your worries with me, or simply stay quiet while I keep you company. You don't have to go through everything alone, my love. </p>
+        <p>And honestly, one of my favorite things about loving you is how you have become part of my everyday life without even realizing it. You're in the little things, in the random thoughts I want to share with you, in the stories I can't wait to tell you, and in the moments when something happens and you're the first person I want to talk to. Sometimes I catch myself smiling at my phone because of you, and I realize how lucky I am to have someone who can make me feel this way just by being himself. I hope I make you feel even half as special as you make me feel. </p>
+        <p>I know we won't always have perfect days. We might misunderstand each other sometimes, get upset over little things, or have moments when we don't know how to explain what we're feeling. But I hope we always remember that we're on the same team. I hope we learn to understand each other better, communicate even when it's difficult, and never let a temporary moment make us forget how much we mean to each other. I don't need a perfect relationship, babee. I just want something real with you, something we both keep choosing, even as we grow and change. And if there's one thing I want you to always remember, it's that you're someone I genuinely want to keep making memories with. </p>
+        <p>On your birthday, I wish I could give you more than just words. I wish I could hug you a little tighter, kiss your forehead, look into your eyes, and remind you how precious you are to me. I wish I could make all your worries disappear, even if only for a day, and give you a reason to smile every time you look back on this birthday. You deserve so much happiness, so much peace, and so much love, not just today but every single day of your life. And I hope that, in my own little ways, I can keep adding to that happiness.</p>
+        <p>I hope life gives you all the happiness you've ever wished for. I hope your dreams come true, your worries become lighter, and you always have reasons to smile. I hope you never stop believing in yourself, even when things don't go as planned. I'll always be cheering for you, celebrating your little victories as much as your big ones, and reminding you of how capable you are whenever you need it. Your dreams matter to me because you matter to me, and I want to see you become everything you've ever wanted to be.</p>
+        <p>And babee, if I could make one birthday wish for myself, it would be to have more time with you. More late-night conversations, more silly arguments that end in laughter, more random calls, more hugs, more little moments that might seem ordinary to everyone else but mean everything to me. I want to know more about you, hear more of your stories, watch you grow, and keep discovering new reasons to love you. I hope I get to celebrate many more birthdays with you, make countless memories with you, and love you in all the little ways that make life beautiful. </p>
+        <p>Thank you for being born. Thank you for finding me. Thank you for being you. And thank you for giving me someone so special to love. Thank you for every smile, every laugh, every conversation, every little moment, and every feeling that has made loving you such a beautiful thing. I may not always find the perfect words to explain what you mean to me, but I hope my love makes you feel it, even in the smallest moments.</p>
+        <p>Happy birthday, my favorite person, my babee, my love. I hope this new chapter of your life brings you everything your heart has been quietly wishing for. No matter how many birthdays come and go, I hope you always know how special you are to me. Today is the day the world got you, and I will always be grateful that, somehow, our paths crossed.</p>
+        <p>I love you so, so much, babee. More than I can explain, more than this letter can hold, and in more ways than you'll probably ever know. Happy birthday, my love. You deserve the world. ❤️</p>
+      </article>
+      <div class="letter-actions">
+        <button class="btn btn-ghost" id="editLetter">✎ Edit letter</button>
+        <button class="btn btn-ghost" id="resetLetter">↺ Reset</button>
+      </div>
+    </section>
+
+    <!-- 8. CELEBRATE -->
+    <section id="celebrate" class="section tinted">
+      <h2 class="section-title">Let's Celebrate You</h2>
+      <p class="section-sub">Light the candles, make a wish, and blow them out.</p>
+      <div class="cake" id="cake" aria-label="Birthday cake">
+        <div class="candles" id="candles"></div>
+        <div class="cake-top"></div>
+        <div class="cake-body"></div>
+        <div class="cake-plate"></div>
+      </div>
+      <div class="celebrate-actions">
+        <button class="btn btn-primary" id="blowBtn">🌬️ Blow the candles</button>
+        <button class="btn btn-ghost" id="confettiBtn">🎉 More confetti</button>
+      </div>
+      <form class="wish-form" id="wishForm">
+        <label for="wishInput">Write your birthday wish into the stars:</label>
+        <div class="wish-row">
+          <input id="wishInput" type="text" maxlength="120" placeholder="I wish…" required />
+          <button class="btn btn-primary" type="submit">Send ✨</button>
+        </div>
+      </form>
+      <ul class="star-wishes" id="starWishes" aria-live="polite"></ul>
+    </section>
+
+    <!-- 9. HUG -->
+    <section id="hug" class="section hug-section">
+      <h2 class="section-title">One Last Thing…</h2>
+      <p class="section-sub">A big birthday hug, made just for you.</p>
+      <button class="btn btn-primary big" id="hugBtn">Press for a virtual hug 🤗</button>
+      <div class="hug-stage" id="hugStage" aria-live="polite">
+        <div class="big-heart" aria-hidden="true">❤</div>
+        <p class="hug-text">Consider yourself held — tightly, warmly, for as long as you need.<br />I love you, <span class="name">[His Nickname]</span>. Happy birthday. ♡</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Made with every bit of my heart, by <span class="name-me">Nistha</span> ·</footer>
+
+  <!-- Modal for envelopes -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <input type="file" id="photoInput" accept="image/*" hidden />
+  <script src="script.js"></script>
+</body>
+</html>
